@@ -10,8 +10,6 @@
 
 @interface TPI_NoticeSupportClass : NSObject <THOPluginProtocol>
 
-- (void)pluginLoadedIntoMemory:(IRCWorld *)world;
-
 - (id)interceptUserInput:(id)input command:(NSString *)command;
 
 @end
