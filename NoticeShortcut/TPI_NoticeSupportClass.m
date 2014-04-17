@@ -18,7 +18,8 @@
             NSString *string = [input string];
             NSMutableAttributedString *newInput = [[NSMutableAttributedString alloc] initWithAttributedString:input];
             for (NSInteger i=[string length]; i>=0; i--) {
-                if (i == 0 || [string characterAtIndex:i-1] == 0x2028) {
+                unichar c = [string characterAtIndex:i-1];
+                if (i == 0 || c == NSLineSeparatorCharacter || c == NSNewlineCharacter) {
                     [newInput insertAttributedString:[[NSAttributedString alloc] initWithString:prefix] atIndex:i];
                 }
             }
