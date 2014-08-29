@@ -246,19 +246,19 @@
 		CEF7B0DD18C6283200C0EDFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = /Applications/Textual.app/Contents/MacOS/Textual;
+				BUNDLE_LOADER = "/Applications/Textual 5.app/Contents/MacOS/Textual 5";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = /Applications/Textual.app/Contents/Frameworks/;
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Textual\\ 5.app/Contents/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoticeShortcut/NoticeShortcut-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Applications/Textual.app/Contents/Headers/,
+					"/Applications/Textual\\ 5.app/Contents/Headers",
 				);
 				INFOPLIST_FILE = "NoticeShortcut/NoticeShortcut-Info.plist";
 				INSTALL_PATH = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = build;
@@ -269,19 +269,19 @@
 		CEF7B0DE18C6283200C0EDFA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = /Applications/Textual.app/Contents/MacOS/Textual;
+				BUNDLE_LOADER = "/Applications/Textual 5.app/Contents/MacOS/Textual 5";
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = /Applications/Textual.app/Contents/Frameworks/;
+				FRAMEWORK_SEARCH_PATHS = "/Applications/Textual\\ 5.app/Contents/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NoticeShortcut/NoticeShortcut-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					/Applications/Textual.app/Contents/Headers/,
+					"/Applications/Textual\\ 5.app/Contents/Headers",
 				);
 				INFOPLIST_FILE = "NoticeShortcut/NoticeShortcut-Info.plist";
 				INSTALL_PATH = "";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SYMROOT = build;

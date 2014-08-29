@@ -13,7 +13,7 @@
 - (id)interceptUserInput:(id)input command:(NSString *)command
 {
     if ([NSEvent modifierFlags] & NSControlKeyMask && [command isEqualToString:@"PRIVMSG"]) {
-        NSString *prefix = [NSString stringWithFormat:@"/notice %@ ", self.worldController.selectedChannel.name];
+        NSString *prefix = [NSString stringWithFormat:@"/notice %@ ", [mainWindow() selectedChannel].name];
         if ([input isKindOfClass:[NSAttributedString class]]) {
             NSString *string = [input string];
             NSMutableAttributedString *newInput = [[NSMutableAttributedString alloc] initWithAttributedString:input];
